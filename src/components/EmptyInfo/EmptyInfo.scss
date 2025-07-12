@@ -1,0 +1,23 @@
+.cart-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+
+  img {
+    margin-bottom: 20px;
+  }
+
+  p {
+    width: 280px;
+    color: var(--muted-foreground);
+  }
+}
+
+.drawer {
+  button.order-btn {
+    margin-top: auto;
+  }
+}

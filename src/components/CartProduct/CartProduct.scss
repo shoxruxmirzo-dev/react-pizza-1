@@ -1,0 +1,35 @@
+.cart__item {
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: var(--card);
+  color: var(--card-foreground);
+
+  img {
+    border-radius: 8px;
+  }
+
+  .item__info {
+    flex: 1;
+    font-size: 14px;
+
+    p {
+      margin-bottom: 5px;
+    }
+  }
+
+  button.icon-btn {
+    margin-left: auto;
+
+    &:hover {
+      border-color: var(--destructive);
+      color: var(--destructive);
+    }
+  }
+}
